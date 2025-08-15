@@ -1,0 +1,30 @@
+BEGIN TRANSACTION;
+CREATE TABLE "email" (
+"id" INTEGER,
+  "first_name" TEXT,
+  "last_name" TEXT,
+  "email" TEXT,
+  "gender" TEXT,
+  "ip_address" TEXT
+);
+INSERT INTO "email" VALUES(1,'Carlin','Bordman','cbordman0@sfgate.com','Genderfluid','107.108.184.225');
+INSERT INTO "email" VALUES(2,'Ana','Parsand','aparsand1@reference.com','Female','218.188.152.57');
+INSERT INTO "email" VALUES(3,'Johanna','Etchells','jetchells2@un.org','Female','100.221.163.110');
+INSERT INTO "email" VALUES(4,'Correy','Chessell','cchessell3@sourceforge.net','Genderfluid','110.51.227.230');
+INSERT INTO "email" VALUES(5,'Loralyn','Brasted','lbrasted4@biglobe.ne.jp','Female','50.50.142.100');
+INSERT INTO "email" VALUES(6,'Newton','Andreoletti','nandreoletti5@vimeo.com','Male','13.199.186.218');
+INSERT INTO "email" VALUES(7,'Ferrel','McGray','fmcgray6@yahoo.co.jp','Male','31.159.45.227');
+INSERT INTO "email" VALUES(8,'Clarissa','Torrans','ctorrans7@lycos.com','Female','119.228.193.28');
+INSERT INTO "email" VALUES(9,'Tucker','Woolhouse','twoolhouse8@t-online.de','Male','236.75.241.104');
+INSERT INTO "email" VALUES(10,'Ailey','Addie','aaddie9@constantcontact.com','Female','72.102.228.77');
+INSERT INTO "email" VALUES(11,'Hurley','Lorenzini','hlorenzinia@nature.com','Male','4.84.205.55');
+INSERT INTO "email" VALUES(12,'Mattheus','Keller','mkellerb@theatlantic.com','Male','55.90.46.136');
+INSERT INTO "email" VALUES(13,'Alexandra','Petrak','apetrakc@sakura.ne.jp','Female','69.205.207.63');
+INSERT INTO "email" VALUES(14,'Emilie','La Grange','elagranged@census.gov','Female','93.197.139.172');
+INSERT INTO "email" VALUES(15,'Abbie','Yeldham','ayeldhame@adobe.com','Female','106.57.252.201');
+INSERT INTO "email" VALUES(16,'Willi','Petracci','wpetraccif@google.ca','Agender','221.143.212.86');
+INSERT INTO "email" VALUES(17,'Wait','Murfill','wmurfillg@bbb.org','Male','190.209.101.26');
+INSERT INTO "email" VALUES(18,'Nissa','Salman','nsalmanh@artisteer.com','Female','18.156.9.127');
+INSERT INTO "email" VALUES(19,'Stacee','Kirkwood','skirkwoodi@amazon.co.uk','Female','214.42.112.82');
+INSERT INTO "email" VALUES(20,'Cly','Flukes','cflukesj@mapy.cz','Agender','160.32.31.70');
+COMMIT;
